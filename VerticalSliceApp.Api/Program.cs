@@ -33,6 +33,7 @@ if (app.Environment.IsDevelopment())
 CreateExam.MapEndpoint(app);
 //app.MapEndpoint();
 // alternative: Carter library
+GetExams.MapEndpoint(app);
 
 app.UseHttpsRedirection();
 
